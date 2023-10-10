@@ -1,0 +1,31 @@
+.solar-banner {
+    background: teal;
+}
+.solar-space {
+    margin-top: 100px;
+}
+.solar-banner-img {
+    background-image: url("https://images.unsplash.com/photo-1653486193683-22e13fac43c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRlYWwlMjBzb2xhciUyMHBhbmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60");
+    background-size: cover;
+    min-height: 400px;
+}
+.package-background {
+    background: linear-gradient(rgba(206, 243, 238, 0.099), rgba(17, 150, 132, 0.503)); 
+    height: auto;
+}
+.package-card {
+    border: 3px solid teal;
+}
+.house-background {
+    background-image: url("https://images.unsplash.com/photo-1516562618495-ad1ff1a273f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxpZ2h0ZWQlMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+    min-height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+.qualification-background {
+    background-image: url("https://images.unsplash.com/photo-1507208773393-40d9fc670acf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b24lMjB0aGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60");
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

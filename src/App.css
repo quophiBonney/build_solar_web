@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600 !important;
+  font-size: 40px !important;
+}
+h4,
+h5,
+h6 {
+  font-weight: 500 !important;
+  font-size: 25px !important;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.navbar {
+  transition: background-color 0.3s ease-in-out;
+}
+.navbar.transparent {
+  background-color: transparent;
+}
+.navbar.teal {
+  background-color: teal;
+}
+.nav-link {
+  color: #fff;
+  font-weight: 700;
+}
+.nav-link:hover {
+  color: lightblue;
+}
+.dropdown-item {
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 25px !important;
+  }
+  p {
+    font-size: 20px;
+  }
+     .hero-space {
+       margin-top: 160px;
+     }
+}

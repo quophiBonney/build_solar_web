@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+.home-hero {
+    background: url('../../assets/bg.jpg');
+    min-height: 650px;
+    background-position: 10 10;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.hero-space {
+    margin-top: 200px !important;
+}
+.number-one-background {
+    background-image: linear-gradient(rgba(17, 150, 132, 0.6), rgba(17, 150, 132, 0.503));
+}
+.home-img-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("https://images.unsplash.com/photo-1589275776107-e193042128bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNvbGFyJTIwcGFuZWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.home-img-two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("https://images.unsplash.com/photo-1592833159057-6faf163494a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNvbGFyJTIwcGFuZWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.home-img-three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("https://images.unsplash.com/photo-1558449028-b53a39d100fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvbGFyJTIwcGFuZWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60");
+    background-position: center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img-four {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("https://images.unsplash.com/photo-1574360773950-133867861ae9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c29sYXIlMjBwYW5lbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.home-form {
+    border: 1px solid #d3d3d3;
+    border: 5px;
+}
+.testimonial-background {
+    background-image: linear-gradient(rgba(17, 150, 132, 0.503),rgba(17, 150, 132, 0.6));
+}
+.benefits-background {
+    background: linear-gradient(rgba(17, 150, 132, 0.6), #fff);
+    height: auto;
+}
+.benefits-card-background-one {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.956)),url("https://images.unsplash.com/photo-1522512115668-c09775d6f424?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvbWFuJTIwYW5kJTIwa2lkc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+    min-height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px
+}
+.benefits-card-background-two {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.956)),url("https://images.unsplash.com/photo-1444011283387-7b0f76371f12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdvbWFuJTIwYW5kJTIwa2lkc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+    min-height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.benefits-card-background-three {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.956)), url("https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdvbWFuJTIwYW5kJTIwa2lkc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+    min-height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.benefits-card-background-fourth {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.956)),url("https://images.unsplash.com/photo-1611201584823-1413d47fdff6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHZpZGVvJTIwZWRpdG9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60");
+    min-height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.benefits-card-background-fifth {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.956)), url("https://images.unsplash.com/photo-1542596594-649edbc13630?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFwcHklMjBwZW9wbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60");
+    min-height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.benefits-card-background-sixth {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.956)), url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGFwcHklMjBwZW9wbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60");
+    min-height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.power-background {
+    background: teal;
+    min-height: 400px;
+    padding: 20px;
+}
+.car-background {
+    background-image: url("https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+    background-size: cover;
+    background-position: center center;
+}
+.video-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://images.unsplash.com/photo-1592833159057-6faf163494a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNvbGFyJTIwcGFuZWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60");
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fire-background {
+    background-image: url("https://www.pv-magazine-australia.com/wp-content/uploads/sites/9/2022/01/Screenshot-2022-01-18-at-09-36-26-Free-Image-on-Pixabay-Technician-Solar-Panel-Renewable.png");
+    min-height: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+@media screen and (max-width: 200px) and (min-width: 768px) {
+.hero-space {
+        margin-top: 160px;
+    }
+    .home-form {
+        border: 0 !important;
+    }
+    .home-img-one,
+    .home-img-two,
+    .home-img-three,
+    .home-img-four {
+        display: none
+    }
+}
