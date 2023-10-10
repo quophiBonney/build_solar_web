@@ -55,17 +55,12 @@ const Header = () => {
                     <Link
                       to="/solar-plans-and-services"
                       className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
                     >
                       Overview
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/monthly-solar-lease"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/monthly-solar-lease" className="dropdown-item">
                       Monthly Solar Lease
                     </Link>
                   </li>
@@ -73,26 +68,17 @@ const Header = () => {
                     <Link
                       to="/full-amount-solar-lease"
                       className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
                     >
                       Full Amount Solar Lease
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/monthly-solar-loan"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/monthly-solar-loan" className="dropdown-item">
                       Monthly Solar Loan
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/purchase-solar-system"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/purchase-solar-system" className="dropdown-item">
                       Purchase Solar System
                     </Link>
                   </li>
@@ -109,47 +95,27 @@ const Header = () => {
                 </a>
                 <ul className="dropdown-menu shadow border-0 vw-50">
                   <li>
-                    <Link
-                      to="/why-overview"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/why-overview" className="dropdown-item">
                       Overview
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/our-gurantee"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/our-gurantee" className="dropdown-item">
                       Our Gurantee
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/our-customers"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/our-customers" className="dropdown-item">
                       Our Customers
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/careers"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/careers" className="dropdown-item">
                       Careers
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/make-moving-easy"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/make-moving-easy" className="dropdown-item">
                       Make Moving Easy
                     </Link>
                   </li>
@@ -166,29 +132,17 @@ const Header = () => {
                 </a>
                 <ul className="dropdown-menu shadow border-0 vw-50">
                   <li>
-                    <Link
-                      to="/storage-overview"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/storage-overview" className="dropdown-item">
                       Overview
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/tesla-powerwall"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/tesla-powerwall" className="dropdown-item">
                       Tesla Powerwall
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/shift"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/shift" className="dropdown-item">
                       Shift
                       <small>
                         <sup>TM</sup>
@@ -208,11 +162,7 @@ const Header = () => {
                 </a>
                 <ul className="dropdown-menu shadow border-0 vw-50">
                   <li>
-                    <Link
-                      to="/lightning"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/lightning" className="dropdown-item">
                       F-150 Lightning
                       <small>
                         <sup>TM</sup>
@@ -220,11 +170,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/ev-charger"
-                      className="dropdown-item"
-                      onClick={() => closeDropdown("plansDropdown")}
-                    >
+                    <Link to="/ev-charger" className="dropdown-item">
                       Build EV Charger
                     </Link>
                   </li>
