@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/AppFooter";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
-import SolarPlans from "./pages/solarPlans/SolarPlans";
+import SolarPlans from "../src/pages/solarPlans/SolarPlans";
 function App() {
   return (
     <>
