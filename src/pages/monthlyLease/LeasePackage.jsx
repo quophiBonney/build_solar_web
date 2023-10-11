@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-const Package = () => {
+const LeasePackage = () => {
   return (
     <div>
       <div className="container-fluid mt-5 lease-package-background">
@@ -201,4 +201,4 @@ const Package = () => {
   );
 };
 
-export default Package;
+export default LeasePackage;

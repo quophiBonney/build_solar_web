@@ -22,12 +22,12 @@ const Header = () => {
   return (
     <div>
       <nav
-        className={`navbar navbar-expand-lg fixed-top px-4 py-3 ${navbarBackground}`}
+        className={`navbar navbar-expand-lg fixed-top px-4 ${navbarBackground}`}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
+          <Link to="/" className="navbar-brand text-light">
+            Bride Solar
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -60,7 +60,10 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/monthly-solar-lease" className="dropdown-item">
+                    <Link
+                      to="/solar-plans-and-services/monthly-solar-lease"
+                      className="dropdown-item"
+                    >
                       Monthly Solar Lease
                     </Link>
                   </li>

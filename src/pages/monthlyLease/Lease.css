@@ -1,0 +1,14 @@
+.lease-banner {
+    background: teal;
+}
+.lease-space {
+    margin-top: 100px;
+}
+.lease-package-background {
+    background: linear-gradient(rgba(206, 243, 238, 0.099), rgba(206, 243, 238, 0.099), rgba(17, 150, 132, 0.503));
+    height: auto;
+}
+.equal-height-cards .card {
+    height: 100%;
+    margin-top: -30px;
+}
