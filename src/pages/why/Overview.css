@@ -1,0 +1,9 @@
+.overview-banner {
+    background-image: url('../../assets/why.jpg');
+    min-height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

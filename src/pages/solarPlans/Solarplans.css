@@ -1,14 +1,16 @@
-.solar-banner {
-    background: teal;
+
+.solar-banner-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://images.unsplash.com/photo-1653486193683-22e13fac43c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRlYWwlMjBzb2xhciUyMHBhbmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60");
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .solar-space {
-    margin-top: 100px;
+    margin-top: 50px;
 }
-.solar-banner-img {
-    background-image: url("https://images.unsplash.com/photo-1653486193683-22e13fac43c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRlYWwlMjBzb2xhciUyMHBhbmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60");
-    background-size: cover;
-    min-height: 400px;
-}
+
 .package-background {
     background: linear-gradient(rgba(206, 243, 238, 0.099),rgba(206, 243, 238, 0.099), rgba(17, 150, 132, 0.503)); 
     height: auto;

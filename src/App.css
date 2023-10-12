@@ -31,6 +31,8 @@ p {
 }
 .navbar {
   transition: background-color 0.3s ease-in-out;
+  height: auto;
+  
 }
 .navbar.transparent {
   background-color: transparent;

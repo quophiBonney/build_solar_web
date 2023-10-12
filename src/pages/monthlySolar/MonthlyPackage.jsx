@@ -7,19 +7,19 @@ import {
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-const LeasePackage = () => {
+const MonthlyPackage = () => {
   return (
-    <div>
+    <div className="">
       <div className="container-fluid mt-5 lease-package-background px-4">
         <div className="row equal-height-cards">
-          <div>
+          <div className="px-4">
             <h4>Sunrun Solar Plans and Services</h4>
             <p className="">
               We’ll customize your agreement based on your individual needs
             </p>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-4 mt-4">
-            <div className="card px-3  LeasePackage-card mb-5">
+            <div className="card px-4  MonthlyPackagePackage-card mb-5">
               <h5 className="mt-5">Lease</h5>
               <small className="fw-bold mb-3">
                 Build Solar's lease plan offers predictable rates while
@@ -38,7 +38,7 @@ const LeasePackage = () => {
               >
                 <li>Benefits</li>
                 <li>
-                  <AiFillCheckCircle style={{ color: "teal" }} />{" "}
+                  <AiFillCheckCircle style={{ color: "teal" }} />
                   <span className="mx-2">Low upfront cost</span>
                 </li>
                 <li>
@@ -80,7 +80,7 @@ const LeasePackage = () => {
             </div>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-4 mt-4">
-            <div className="card px-3  LeasePackage-card mb-5">
+            <div className="card px-4  MonthlyPackagePackage-card mb-5">
               <h5 className="mt-5">Loan</h5>
               <small className="fw-bold mb-3">
                 Build solar's monthly loan gives you the benefits of owning your
@@ -142,7 +142,7 @@ const LeasePackage = () => {
             </div>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-4 mt-4">
-            <div className="card px-3  LeasePackage-card mb-5">
+            <div className="card px-4  MonthlyPackagePackage-card mb-5">
               <h5 className="mt-5">Purchase</h5>
               <small className="fw-bold mb-3">
                 Build solar allows customers to purchase solar system fully
@@ -158,7 +158,7 @@ const LeasePackage = () => {
               >
                 <li>Benefits</li>
                 <li>
-                  <AiFillCheckCircle style={{ color: "teal" }} />{" "}
+                  <AiFillCheckCircle style={{ color: "teal" }} />
                   <span className="mx-2">Own your system outright</span>
                 </li>
                 <li>
@@ -199,4 +199,4 @@ const LeasePackage = () => {
   );
 };
 
-export default LeasePackage;
+export default MonthlyPackage;

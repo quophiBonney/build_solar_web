@@ -1,8 +1,5 @@
-.lease-banner {
-    background: teal;
-}
-.lease-banner-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://plus.unsplash.com/premium_photo-1661883964999-c1bcb57a7357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1128&q=80");
+.full-amount-banner-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://plus.unsplash.com/premium_photo-1661883964999-c1bcb57a7357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1128&q=80");
     min-height: 100vh;
     background-position: center center;
     background-attachment: fixed;
@@ -13,7 +10,7 @@
     align-items: center;
     justify-content: center;
 }
-.lease-package-background {
+.full-amount-background {
     background: linear-gradient(rgba(206, 243, 238, 0.099), rgba(206, 243, 238, 0.099), rgba(17, 150, 132, 0.503));
     height: auto;
 }

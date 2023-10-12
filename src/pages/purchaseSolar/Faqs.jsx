@@ -1,5 +1,5 @@
 import React from "react";
-import { Collapse, Divider } from "antd";
+import { Collapse } from "antd";
 const firstQuestion = `Can I really go solar for little to $0 down`;
 const firstAnswer = `
   A dog is a type of domesticated animal.

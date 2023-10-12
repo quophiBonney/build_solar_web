@@ -22,14 +22,14 @@ const Header = () => {
   return (
     <div>
       <nav
-        className={`navbar navbar-expand-lg fixed-top px-4 ${navbarBackground}`}
+        className={`navbar navbar-expand-lg fixed-top px-4 navbar-light ${navbarBackground}`}
       >
         <div className="container-fluid">
-          <Link to="/" className="navbar-brand text-light">
+          <a href="/" className="navbar-brand text-light">
             Bride Solar
-          </Link>
+          </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler bg-light text-dark"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -69,19 +69,25 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      to="/full-amount-solar-lease"
+                      to="/solar-plans-and-services/full-amount-solar-lease"
                       className="dropdown-item"
                     >
                       Full Amount Solar Lease
                     </Link>
                   </li>
                   <li>
-                    <Link to="/monthly-solar-loan" className="dropdown-item">
+                    <Link
+                      to="/solar-plans-and-services/monthly-solar-loan"
+                      className="dropdown-item"
+                    >
                       Monthly Solar Loan
                     </Link>
                   </li>
                   <li>
-                    <Link to="/purchase-solar-system" className="dropdown-item">
+                    <Link
+                      to="/solar-plans-and-services/purchase-solar-system"
+                      className="dropdown-item"
+                    >
                       Purchase Solar System
                     </Link>
                   </li>
@@ -98,7 +104,7 @@ const Header = () => {
                 </a>
                 <ul className="dropdown-menu shadow border-0 vw-50">
                   <li>
-                    <Link to="/why-overview" className="dropdown-item">
+                    <Link to="/why-bridge-solar" className="dropdown-item">
                       Overview
                     </Link>
                   </li>

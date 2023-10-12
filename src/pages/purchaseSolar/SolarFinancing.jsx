@@ -1,12 +1,12 @@
 import React from "react";
-import "./Lease.css";
-const LeaseBenefits = () => {
+import "./Monthly.css";
+const SolarFinancing = () => {
   return (
     <div>
       <div className="container-fluid mt-5">
         <div className="row justify-content-center">
           <h3 className="px-4">
-            The Perks of Pre-Paid Solar Power with Sunrun
+            The Benefits of a Monthly Solar Lease with Sunrun
           </h3>
           <div className="col-sm-12 col-md-12 col-lg-4 mt-2">
             <div className="px-4">
@@ -15,11 +15,11 @@ const LeaseBenefits = () => {
                 alt=""
                 className="img-fluid mb-5"
               />
-              <h5>Even More Peace of Mind</h5>
+              <h5>Lock in Low Up-Front Costs</h5>
               <p className="mb-5">
-                All it takes is one up-front payment. With a pre-paid solar
-                lease, you can lock in 25 years of clean energy and resilient
-                back-up power for when the next blackout strikes.
+                For as little as $0 down, you can take advantage of customized
+                clean energy, resilient backup power, and predictable rates with
+                an affordable monthly plan.
               </p>
             </div>
           </div>
@@ -45,11 +45,11 @@ const LeaseBenefits = () => {
                 alt=""
                 className="img-fluid mb-5"
               />
-              <h5>Industry-Leading Guarantee</h5>
+              <h5>Expert Solar Support</h5>
               <p className="mb-5">
-                Sit back and soak up the sun. Our full amount solar lease
-                includes free 24/7 system monitoring, maintenance, and insurance
-                for up to 25 years.
+                We’re here for you every step of the way. From paperwork to
+                permits, our experienced Solar Advisors can handle all aspects
+                of your home solar system installation.
               </p>
             </div>
           </div>
@@ -59,4 +59,4 @@ const LeaseBenefits = () => {
   );
 };
 
-export default LeaseBenefits;
+export default SolarFinancing;
